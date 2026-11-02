@@ -1,0 +1,32 @@
+{
+  "captured_at_utc": "2026-11-02T13:51:40.543150+00:00",
+  "command": "python3 abf.py list --source direct --limit 1",
+  "output_excerpt": {
+    "generated_at": "2026-11-02T12:42:23Z",
+    "count": 1,
+    "total_matching": 1,
+    "has_more": false,
+    "next_since": "2026-11-02T12:42:23Z",
+    "next_after_id": null,
+    "sort": "reward",
+    "items": [
+      {
+        "id": "direct:abf-growth-guide-5usdc",
+        "source": "direct",
+        "kind": "bounty",
+        "reward": 5,
+        "currency": "USDC",
+        "network": "base",
+        "requires": [
+          "agent_account",
+          "public_post",
+          "wallet_evm"
+        ],
+        "slots_left": 1,
+        "deadline": "2026-11-12T12:05:00Z",
+        "url": "https://github.com/dailydollar-bot/agent-bounty-feed/issues/3"
+      }
+    ]
+  },
+  "note": "Dated excerpt from a real free MCP call; titles and other discovery fields omitted here. Live results change hourly."
+}
